@@ -79,3 +79,11 @@
     min-width: 0;
   }
 }
+
+@media (max-width: 760px) {
+  .about-photo img {
+    height: auto;
+    max-height: 460px;
+    object-fit: contain;
+  }
+}
