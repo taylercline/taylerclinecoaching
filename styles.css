@@ -5,3 +5,57 @@
 .about-photo img {
   border-radius: 2px;
 }
+/* Credentials strip */
+.credentials-strip {
+  max-width: 1000px;
+  margin: 70px auto 50px;
+  padding: 35px 20px;
+  text-align: center;
+  border-top: 1px solid rgba(73, 54, 43, 0.18);
+}
+
+.credentials-strip .eyebrow {
+  margin-bottom: 28px;
+}
+
+.credentials-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.credentials-badges img {
+  display: block;
+  width: 115px;
+  height: 115px;
+  object-fit: contain;
+}
+
+.credentials-affiliation {
+  margin-top: 24px;
+  font-size: 14px;
+}
+
+.credentials-affiliation a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+  .credentials-strip {
+    margin-top: 45px;
+    padding: 28px 12px;
+  }
+
+  .credentials-badges {
+    gap: 20px;
+  }
+
+  .credentials-badges img {
+    width: 85px;
+    height: 85px;
+  }
+}
