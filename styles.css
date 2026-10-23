@@ -83,7 +83,7 @@
 @media (max-width: 760px) {
   .about-photo img {
     height: auto;
-    max-height: 460px;
+    max-height: none;
     object-fit: contain;
   }
 }
